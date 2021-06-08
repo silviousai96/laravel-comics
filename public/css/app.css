@@ -71,3 +71,21 @@ a {
   background-image: url("../img/jumbotron.jpg");
   background-size: cover;
 }
+
+main {
+  background-color: #1c1c1c;
+}
+main .comics-container {
+  padding: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: white;
+}
+main .comics-container .single-comic {
+  width: calc( (100% / 6) - 10px );
+  padding-bottom: 10px;
+}
+main .comics-container .single-comic img {
+  height: 170px;
+}

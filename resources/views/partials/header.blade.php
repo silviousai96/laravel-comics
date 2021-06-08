@@ -35,8 +35,6 @@
         </div>
         
     </div>
-    
-    <div class="jumbotron">
-            
-    </div>
+
+    <div class="jumbotron"></div>
 </header>

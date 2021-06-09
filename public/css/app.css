@@ -72,20 +72,123 @@ a {
   background-size: cover;
 }
 
-main {
+main .home-background {
   background-color: #1c1c1c;
+  position: relative;
 }
-main .comics-container {
-  padding: 30px 0;
+main .home-background h2 {
+  background-color: #0282f9;
+  color: white;
+  text-transform: uppercase;
+  width: 239px;
+  position: absolute;
+  top: -24px;
+  left: 157px;
+  padding: 10px 13px;
+}
+main .home-background .comics-container {
+  padding-top: 55px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   color: white;
 }
-main .comics-container .single-comic {
+main .home-background .comics-container .single-comic {
   width: calc( (100% / 6) - 10px );
+  padding-bottom: 25px;
+}
+main .home-background .comics-container .single-comic img {
+  height: 170px;
+}
+main .title-description-container {
+  width: 70%;
+  margin: auto;
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+main .title-description-container .title-description {
+  width: 70%;
+}
+main .title-description-container .title-description h2 {
+  color: #003f5e;
+  text-transform: uppercase;
+  font-size: 23px;
   padding-bottom: 10px;
 }
-main .comics-container .single-comic img {
-  height: 170px;
+main .title-description-container .title-description .price-check {
+  width: 85%;
+  height: 20px;
+  background-color: #55ba59;
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #a4ed77;
+}
+main .title-description-container .title-description .price-check .price {
+  color: white;
+}
+main .title-description-container .title-description p {
+  padding: 15px 0;
+  padding-right: 25px;
+  font-size: 14px;
+  line-height: 25px;
+}
+main .title-description-container .ad {
+  width: 30%;
+}
+main .d-background {
+  background-color: #f6f6f6;
+}
+main .d-background .details {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  color: #003f6e;
+}
+main .d-background .details .talent {
+  width: 48%;
+  font-size: 15px;
+}
+main .d-background .details .talent h2 {
+  padding: 15px 0;
+}
+main .d-background .details .talent .art {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid lightgrey;
+  border-top: 1px solid lightgrey;
+}
+main .d-background .details .talent .art .artists {
+  width: 70%;
+  color: black;
+}
+main .d-background .details .talent .written {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid lightgrey;
+}
+main .d-background .details .talent .written .writers {
+  width: 70%;
+  color: black;
+}
+main .d-background .details .specs {
+  width: 48%;
+}
+main .d-background .details .specs h2 {
+  padding: 14px 0;
+}
+main .d-background .details .specs .specs-lines {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid lightgrey;
+  border-top: 1px solid lightgrey;
+}
+main .d-background .details .specs .specs-lines span {
+  color: black;
 }
